@@ -13,9 +13,7 @@
 
 
 
-[![GitHub stars](https://img.shields.io/github/stars/singh04ayush/imagify?style=social)](https://github.com/singh04ayush/imagify/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/singh04ayush/imagify?style=social)](https://github.com/singh04ayush/imagify/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/singh04ayush/imagify?style=social)](https://github.com/singh04ayush/imagify/issues)
+
 
 ---
 
@@ -43,7 +41,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/singh04ayush/imagify.git
+
 cd imagify
 ```
 
@@ -86,7 +84,7 @@ cd client
 npm install
 
 # If vite not installed
-npm install vite@latest
+npm install 
 
 # Create .env file in the client directory
 touch .env
@@ -101,7 +99,7 @@ npm run dev
 #### Frontend Environment Variables Explanation
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `VITE_BACKEND_URL` | Backend API URL | `http://localhost:5000` |
+| `VITE_BACKEND_URL` | Backend API URL ||
 
 ### 4. Access the Application
 - Frontend: `http://localhost:5173`
@@ -110,7 +108,7 @@ npm run dev
 > **Important Notes**: 
 > - Never commit your `.env` files to version control
 > - Make sure to replace the example values with your actual configuration
-> - The CLIPDROP_API key can be obtained from [ClipDrop API](https://clipdrop.co/apis)
+> - The CLIPDROP_API key can be obtained from [ClipDrop API
 > - Keep your JWT_SECRET secure and use a strong random string
 
 <div align="center">
@@ -150,42 +148,8 @@ npm run dev
 
 </div>
 
-## 🤝 Contributing
 
-<div align="center">
 
-We welcome contributions! Here's how you can help:
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-</div>
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-<div align="center">
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-</div>
-
-## 🙏 Acknowledgment
-
-<div align="center">
-
-| Resource | Description |
-|----------|-------------|
-| [Heroicons](https://heroicons.com/) | Beautiful icons |
-| [TailwindCSS](https://tailwindcss.com/) | Utility-first CSS framework |
-| [React Community](https://reactjs.org/community) | Amazing React ecosystem |
 
 </div>
 
